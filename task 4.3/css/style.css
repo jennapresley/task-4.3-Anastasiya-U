@@ -1,0 +1,152 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   background-color: #FFFAF3;
+   background-image: url(../images/Image\ 1.svg);
+   background-position: right;
+   background-repeat: no-repeat;
+   width: 660px;
+   height: 814px;
+   
+   
+}
+
+.container{
+   max-width: 1080px;
+   margin: auto;
+   
+}
+header .nav{
+   padding-top: 43px;
+   padding-bottom: 43px;
+}
+
+
+header .logo{
+   display: inline-block;
+   padding-right: 83.64px;
+   vertical-align: middle;
+
+}
+header nav{
+   display: inline-block;
+   vertical-align: middle;
+}
+header nav li{
+   display: inline-block;
+   padding-right: 48px;
+
+}
+header nav li a{
+   text-decoration: none;
+   color: #000000;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 27px;
+   
+}
+
+.nav::after{
+   content: "";
+   display: inline-block;
+   width: 470px;
+   height: 1px;
+   background-color: #C08D5D;
+   
+}
+main{
+   padding-top: 123px;
+   padding-bottom: 69px;
+}
+h1{
+   font-family: 'Yeseva One';
+   font-style: normal;
+   text-transform: uppercase;
+   font-weight: 400;
+   font-size: 70px;
+   line-height: 81px;
+   letter-spacing: 0.06em;
+
+color: #3F4042;
+margin-bottom: 25.97px;
+
+}
+span{
+   display: block;
+   text-transform: none;
+   padding-bottom: 7px;
+   font-size: 50px;
+   
+}
+span::after{
+   content:url(../images/Logo.svg);
+   display: inline;
+   width: 45,21px;
+   height: 69,04px;
+   padding-left: 8px;
+   vertical-align: sub;
+}
+h1::after{
+ content: "";
+ display: block;
+ width: 165px;
+ height: 9.03px;
+ background-image: url(../images/Vector\ 1.svg);
+ border: 3px  #3F4042;
+background-size: contain;
+background-repeat: no-repeat;
+ margin-top: 45px;
+ margin-bottom: 25.97px;
+}
+p{
+   max-width: 535px; 
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 147.6%;
+   /* or 27px */
+
+   letter-spacing: 0.06em;
+
+   color: #3F4042;
+   margin-right: 65px;
+}
+.button{
+   display: inline-block;
+   text-decoration: none;
+   padding-left: 15px;
+   color: #3F4042;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   border: 2px solid #C08D5D;
+   margin-top: 72px;
+  
+ 
+}
+.button::after{
+   content: '';
+   display: inline-block;
+   color: #FFFFFF;
+   width: 59px;
+   height: 64px;
+   background-color: #C08D5D;
+   background-image: url(../images/Vector\ 2.svg);
+   background-repeat: no-repeat;
+   background-position: center;
+   margin-left: 11px;
+   vertical-align: middle;
+}
+.mouse{
+   display: block;
+   text-align: center;
+   margin-top: 63px;
+}
